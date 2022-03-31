@@ -13,6 +13,10 @@
 		865D1D5A27F63C8500D924B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D1D5827F63C8500D924B0 /* Main.storyboard */; };
 		865D1D5C27F63C8600D924B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865D1D5B27F63C8600D924B0 /* Assets.xcassets */; };
 		865D1D5F27F63C8600D924B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865D1D5D27F63C8600D924B0 /* LaunchScreen.storyboard */; };
+		865D1D6727F6428A00D924B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D6627F6428A00D924B0 /* Person.swift */; };
+		865D1D6927F642F000D924B0 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D6827F642F000D924B0 /* Job.swift */; };
+		865D1D6B27F644F000D924B0 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D6A27F644F000D924B0 /* Car.swift */; };
+		865D1D6D27F65D0300D924B0 /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D6C27F65D0300D924B0 /* CarProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		865D1D5B27F63C8600D924B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865D1D5E27F63C8600D924B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		865D1D6027F63C8600D924B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865D1D6627F6428A00D924B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		865D1D6827F642F000D924B0 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		865D1D6A27F644F000D924B0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		865D1D6C27F65D0300D924B0 /* CarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				865D1D5B27F63C8600D924B0 /* Assets.xcassets */,
 				865D1D5D27F63C8600D924B0 /* LaunchScreen.storyboard */,
 				865D1D6027F63C8600D924B0 /* Info.plist */,
+				865D1D6627F6428A00D924B0 /* Person.swift */,
+				865D1D6C27F65D0300D924B0 /* CarProtocol.swift */,
+				865D1D6827F642F000D924B0 /* Job.swift */,
+				865D1D6A27F644F000D924B0 /* Car.swift */,
 			);
 			path = AppPOO;
 			sourceTree = "<group>";
@@ -139,8 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				865D1D5727F63C8500D924B0 /* ViewController.swift in Sources */,
+				865D1D6D27F65D0300D924B0 /* CarProtocol.swift in Sources */,
 				865D1D5327F63C8500D924B0 /* AppDelegate.swift in Sources */,
+				865D1D6B27F644F000D924B0 /* Car.swift in Sources */,
+				865D1D6727F6428A00D924B0 /* Person.swift in Sources */,
 				865D1D5527F63C8500D924B0 /* SceneDelegate.swift in Sources */,
+				865D1D6927F642F000D924B0 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
