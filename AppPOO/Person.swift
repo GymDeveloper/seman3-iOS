@@ -14,19 +14,19 @@ import Foundation
 // aca se llaman protocolos cuando ustede vean que una clase tienen mas de una herencia eso se llama protocos
 // Para poder hereder car necesitamos que este sea un protocolo
 // Vean como podemos heredar solo una clase si queremos heredar mas cosas estas deben ser Protocol
-class Person : Job, CarProtocol {
+class Person : Job {
     
     // y vean como al llamar al protocol esta nos brinda sus funciones
     //NOTA: La funcion turnOn y turnOf son funciones de CarProtocol
     // NOTA: Esto vamos a revisarlo a detalle cuando veamos tableView
-    func turnOn() {
-        <#code#>
-    }
-    
-    func turnOf() {
-        <#code#>
-    }
-    
+//    func turnOn() {
+//        <#code#>
+//    }
+//    
+//    func turnOf() {
+//        <#code#>
+//    }
+//    
     
     var name: String = "Carlos"
     var documentNumber: String = "8888888"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862A663827F888A70045B1B4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A663727F888A70045B1B4 /* Movie.swift */; };
+		862A663A27F88B9C0045B1B4 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A663927F88B9C0045B1B4 /* MovieViewController.swift */; };
 		865D1D5327F63C8500D924B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D5227F63C8500D924B0 /* AppDelegate.swift */; };
 		865D1D5527F63C8500D924B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D5427F63C8500D924B0 /* SceneDelegate.swift */; };
 		865D1D5727F63C8500D924B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D1D5627F63C8500D924B0 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		862A663727F888A70045B1B4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		862A663927F88B9C0045B1B4 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		865D1D4F27F63C8500D924B0 /* AppPOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppPOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865D1D5227F63C8500D924B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865D1D5427F63C8500D924B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				865D1D6C27F65D0300D924B0 /* CarProtocol.swift */,
 				865D1D6827F642F000D924B0 /* Job.swift */,
 				865D1D6A27F644F000D924B0 /* Car.swift */,
+				862A663727F888A70045B1B4 /* Movie.swift */,
+				862A663927F88B9C0045B1B4 /* MovieViewController.swift */,
 			);
 			path = AppPOO;
 			sourceTree = "<group>";
@@ -155,7 +161,9 @@
 				865D1D5327F63C8500D924B0 /* AppDelegate.swift in Sources */,
 				865D1D6B27F644F000D924B0 /* Car.swift in Sources */,
 				865D1D6727F6428A00D924B0 /* Person.swift in Sources */,
+				862A663A27F88B9C0045B1B4 /* MovieViewController.swift in Sources */,
 				865D1D5527F63C8500D924B0 /* SceneDelegate.swift in Sources */,
+				862A663827F888A70045B1B4 /* Movie.swift in Sources */,
 				865D1D6927F642F000D924B0 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
